@@ -26,7 +26,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="Kateryna is a front-end engineer based in Europe."
+    />
+    <title>Front-end developer - Kateryna Dubova</title>
   </head>
   <body>
     <div class="container">
@@ -34,16 +38,16 @@
         <p>Kateryna Dubova</p>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Kateryna">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Kateryna's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Kateryna">Contact</a>
           </li>
         </ul>
       </nav>
@@ -54,7 +58,9 @@
       <h1>Kateryna Dubova</h1>
       <h2 class="mb-5">Front-end developer, based in Europe</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -63,7 +69,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt Project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -74,7 +84,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -88,16 +98,24 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather Project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary App preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -108,36 +126,63 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
       <footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Kateryna"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:sofiapilagina08@gmail.com" class="email-link"
+          <a
+            href="mailto:sofiapilagina08@gmail.com"
+            class="email-link"
+            title="Email Kateryna"
             >sofiapilagina08@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/sonns15_" target="_blank"
+          <a
+            href="https://www.instagram.com/sonns15_"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fab fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/sonysp13" target="_blank"
+          <a
+            href="https://www.github.com/sonysp13"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.twitter.com/sonns15_" target="_blank"
+          <a
+            href="https://www.twitter.com/sonns15_"
+            target="_blank"
+            title="Twitter Profile"
             ><i class="fab fa-twitter"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Kateryna, and it is
+          <a
+            href="https://github.com/sonysp13/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
